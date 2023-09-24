@@ -1,0 +1,10 @@
+tr1;Toyota;500000;500000;1000;p-1;BasicTruck
+tr2;Honda;255000;450000;800;p-1;BasicTruck
+tr3;Volvo;456000;545000;700;p-1;ReeferTruck
+tr4;Jeep;230000;656000;1000;p-2;TankerTruck
+tr5;Subaru;454000;454000;900;p-2;BasicTruck
+tr6;Toyota;550000;688000;1000;p-2;BasicTruck
+tr7;Honda;367000;957000;800;p-3;BasicTruck
+tr8;Volvo;456000;665000;700;p-3;ReeferTruck
+tr9;Jeep;555000;555000;1000;p-3;TankerTruck
+tr10;Mazda;150000;300000;500;p-4;ReeferTruck
