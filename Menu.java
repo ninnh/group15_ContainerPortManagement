@@ -265,7 +265,16 @@ public class Menu {
                 switch (option) {
                     case 0 -> System.out.println("Thank for coming");
                     case 1 -> System.out.println(port);
-                    case 2 -> crudVehicle.create(users);
+                    case 2 -> {
+                        System.out.println("Input the id of the vehicle (ex:tr1):");
+                        vehicleID = vehicleInput.nextLine();
+                        for (Vehicles vehicle : this.vehicles) {
+                            if (vehicleID.equals(vehicle.getUniqueId())) {
+                                port.addVehicles(vehicle, port);
+                                break;
+                            }
+                        } System.out.println("Added successfully!");
+                    }
                     case 3 -> {
                         System.out.println("Input the ID of the vehicle:");
                         vehicleID = vehicleInput.nextLine();

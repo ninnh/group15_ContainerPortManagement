@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54179c3d-788f-4051-82f0-612f4ddc8c7b" name="Changes" comment="Updaate Menu" />
+    <list default="true" id="54179c3d-788f-4051-82f0-612f4ddc8c7b" name="Changes" comment="Updaate Menu">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataport.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataport.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataship.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataship.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +40,7 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2VT70BvuIcPjPBrGbrn839Gi2WC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/CodeSetup/Java/jdk-20",
     "node.js.detected.package.eslint": "true",
@@ -56,19 +66,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="group-15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="group-15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="group-15" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +88,7 @@
       <workItem from="1695311456292" duration="221000" />
       <workItem from="1695311856416" duration="7536000" />
       <workItem from="1695353764054" duration="5876000" />
+      <workItem from="1695561141098" duration="9233000" />
     </task>
     <task id="LOCAL-00001" summary="Update Method calculateFuelConsumption&#10;change data">
       <option name="closed" value="true" />

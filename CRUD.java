@@ -45,7 +45,6 @@ class CRUDPort implements CRUD {
         Users manager = DataManager.findUserByName(managers, managerUsername);
         Port newPort = new Port(portId, portName, portLatitude, portLongitude, portStoringCp, manager, portLandAb);
         dataManager.addPortToFile(newPort, "data/dataport.csv", managers);
-        scanner.close();
     }
 
 
@@ -119,7 +118,6 @@ class CRUDVehicle implements CRUD {
         Port currentPort = DataManager.findPortById(ports, currentPortId);
         Ship newShip = new Ship(shipId, shipName, currentFuel, fuelCp, carryCp, currentPort, new ArrayList<>());
         dataManager.addShipToFile(newShip, "data/dataship.csv", ports);
-        scanner.close();
     }
 
     public void createTruck(ArrayList<Port> ports) throws FileNotFoundException {
@@ -145,7 +143,6 @@ class CRUDVehicle implements CRUD {
         Port currentPort = DataManager.findPortById(ports, currentPortId);
         Truck newTruck = new Truck(truckId, truckName, currentFuel, fuelCp, carryCp, currentPort, TruckType.valueOf(truckType), new ArrayList<>());
         dataManager.addTruckToFile(newTruck, "data/datatruck.csv", ports);
-        scanner.close();
     }
 
     public Vehicles get(String vehicleID) {
