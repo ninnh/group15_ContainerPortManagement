@@ -16,7 +16,7 @@ Testing instruction:
    - Admin:
         [username: admin / password: admin]
    - Manager:
-        There are 5 ports and 5 manager, each port will correspond to 1 manager in order, ex: p-1/manager.
+        There are 5 ports and 5 manager, each port will correspond to 1 manager in order, ex: p-1/manager1.
         You can choose any username from manager1 to manager5 but there is only one password: 123.
         [username: manager1 / password: 123]
 4. Interact with the system
